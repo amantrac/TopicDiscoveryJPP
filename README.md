@@ -9,7 +9,7 @@ Carmen Vaca, Amin Mantrach, Alejandro Jaimes and Marco Saerens.
 A Time-based Collective Factorization for Topic Discovery and Monitoring in News. 
 In the Proceedings of 23rd International World Wide Web Conference (WWW 2014), p527-538, April 2014, Seoul, Korea 
 
-@inproceedings{vacaWWWMainTrack2014,
+@inproceedings{vaca2014WWW,
   title={A time-based collective factorization for topic discovery and monitoring in news},
   author={Vaca, Carmen and Mantrach, Amin and Jaimes, Alejandro and Saerens, Marco},
   booktitle={Proceedings of the 23rd international conference on World wide web},
