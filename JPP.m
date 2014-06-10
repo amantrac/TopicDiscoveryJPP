@@ -53,7 +53,6 @@ while((abs(prevObj-Obj) > epsilon) && (itNum <= maxiter)),
      W =  W .* ( X*(H'+J')  ./ max(W*((J*J')+(H*H')+ lambda),eps) );
      WtW =W'*W;
      WtX = W'*X;     
-     %M = M .* ( ((WtX*R') + (alpha*I)) ./ max( (WtW*M*R*R') + ( (alpha+lambda)*M)+lambda,eps) );  
      M = M .* ( ((WtX*R') + (alpha*I)) ./ max( (WtW*M*R*R') + ( (alpha)*M)+lambda,eps) );      
      H = H .* (WtX./max(WtW*H+lambda,eps));
      prevObj = Obj;
