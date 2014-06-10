@@ -28,7 +28,7 @@ load TDT2.mat;
 X=fea;
 load T.mat;
 Y=[];
-k=5; %We fix the nb of top classes to track
+k=6; %We fix the nb of top classes to track
 for v =[1:k]
     Y  = [Y gnd==v];
 end

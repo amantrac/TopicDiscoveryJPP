@@ -11,5 +11,5 @@ In the Proceedings of 23rd International World Wide Web Conference (WWW 2014), p
 
 This repository contains the MATLAB implementation of the Joint Past Present (JPP)  decompositon for Topic Discovery.
 An demo example of how to use the MATLAB functions is given in the demo.m using the TDT2 public data set (http://www.nist.gov/speech/tests/tdt/tdt98/index.htm).
-So, just run matlab, and run 'demo.m' script ;-)
-For any question or remark please contact authors.
+So, just run matlab, and run 'demo.m' script.
+Enjoy ;-).
